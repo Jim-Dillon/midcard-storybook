@@ -1,0 +1,26 @@
+.logo {
+    float: left;
+    height: 60px;
+    /* position: absolute; */
+    top: 6.5px;
+    padding-left: 64px;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 599px) {
+    .logo {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px) {
+    .logo {
+        padding-left: 45px;
+        padding-top: 5px;
+        height: 58px;
+    }
+
+    .logo a img {
+        height: 58px;
+    }
+}
