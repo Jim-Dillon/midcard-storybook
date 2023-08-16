@@ -1,0 +1,133 @@
+.social-icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-top: 0px;
+}
+
+.social-icons-row-1, .social-icons-row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons-body {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 82px;
+}
+
+a, a:hover, a:active { 
+    color: white;
+    text-decoration: none; 
+}
+
+/* .Twitter-icon {
+    padding-left: 0px;
+    margin-left: 0px;
+} */
+
+/* .facebook-icon {
+    padding-left: 19px;
+}
+
+.linkedin-icon {
+    padding-left: 19px;    
+}
+
+.instagram-icon {
+    padding-left: 19px;    
+} */
+
+
+@media screen and (max-width: 962px) and (min-width: 700px) {
+
+    .social-icons {
+        height: 129px;
+        padding-left: 20px;
+    }
+
+    .social-logos {
+        width: 35px;
+    }
+
+    /* .facebook-icon, .linkedin-icon, .instagram-icon {
+        padding-left: 10px;
+    } */
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px) {
+
+    .social-icons {
+        padding-left: 20px;
+    }
+
+    .social-logos {
+        width: 35px;
+    }
+
+    /* .facebook-icon, .linkedin-icon, .instagram-icon {
+        padding-left: 10px;
+    }     */
+}
+
+@media screen and (max-width: 599px) and (min-width: 451px) {
+
+    .social-icons {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .social-icons {
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .social-logos {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* .facebook-icon {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .linkedin-icon, .instagram-icon {
+        padding-left: 20px;
+    }  */
+}
+
+
+@media screen and (max-width: 450px) {
+    .social-icons {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .social-icons {
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .social-logos {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* .facebook-icon {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .linkedin-icon, .instagram-icon {
+        padding-left: 20px;
+    }  */
+}
+
+/*# sourceMappingURL=Icon-Icon-stories.81b723bd.chunk.css.map*/
